@@ -1,0 +1,119 @@
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+*{
+    border: 1px dashed gold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ededed;
+    padding: 10px 20px;
+}
+
+.header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2em;
+    align-items: flex-end;
+    font-size: 25px;
+
+}
+
+ul a{
+    color: #2c2c2c;
+}
+
+
+.title{
+    align-self: flex-end;
+}
+
+.title a{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0047b0;
+    
+}
+
+.header button{
+    padding: 3px 20px ;
+    background-color: #0047b0;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 20px;
+    text-align: ;
+}
+
+.main{
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.we-turn{
+    font-weight: 700;
+    font-size: 80px;
+    margin: 26px 0 10px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.some-text{
+    font-size: 28px;
+    color: gray;
+    text-align: center;
+}
+
+
+
+.buttons button{
+    background-color: #0047b0;
+    padding: 8px 30px;
+    margin: 0.5em;
+    font-size: 28px;
+    border-radius: 30px;
+    color: #ffffff;
+    
+}
+
+button.second{
+    background-color: #ffffff;
+    color: #2c2c2c;
+
+}
+
+.list ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-weight: 900;
+    display: flex;
+    list-style: none;
+    font-size: 24px;
+    justify-content: space-between;
+    
+}
+
+ul.description{
+    font-weight: 100;
+    font-size: 18px;
+    gap: 2em;
+    
+}
+
+
