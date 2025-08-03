@@ -3,10 +3,6 @@ body{
     box-sizing: border-box;
 }
 
-*{
-    border: 1px dashed gold;
-}
-
 a{
     text-decoration: none;
     color: black;
@@ -52,7 +48,7 @@ ul a{
     color: #ffffff;
     font-size: 25px;
     border-radius: 20px;
-    text-align: ;
+    cursor: pointer;
 }
 
 .main{
@@ -71,12 +67,14 @@ ul a{
     text-align: center;
     padding: 20px;
     padding-bottom: 0;
+    color: #2c2c2c;
 }
 
 .some-text{
-    font-size: 28px;
+    font-size: 26px;
     color: gray;
     text-align: center;
+    margin-bottom: 0.6em;
 }
 
 
@@ -97,23 +95,43 @@ button.second{
 
 }
 
-.list ul{
-    margin: 0;
-    padding: 0;
-    margin-top: 10px;
-    font-weight: 900;
+.lists{
     display: flex;
+    gap: 120px;
     list-style: none;
-    font-size: 24px;
-    justify-content: space-between;
+    padding: 0;
+    margin-top: 1.8em;
+    margin-bottom: 4em;
     
 }
 
-ul.description{
-    font-weight: 100;
+.lists .stats{
+    font-size: 28px;
+    font-weight: 600;
+    justify-self: center;
+
+}
+
+.lists .description{
     font-size: 18px;
-    gap: 2em;
-    
+    font-weight: 200;
+    color: gray;
+    margin-top: 6px;
+}
+
+.trust{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+.trusted{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 16px;
 }
 
 
